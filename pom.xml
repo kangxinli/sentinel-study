@@ -12,5 +12,6 @@
 	
 	<modules>
 		<module>sentinel-demo</module>
+		<module>sentinel-demo-spring-cloud-gateway</module>
 	</modules>
 </project>
