@@ -13,5 +13,6 @@
 	<modules>
 		<module>sentinel-demo</module>
 		<module>sentinel-demo-spring-cloud-gateway</module>
+		<module>sentinel-demo-parameter-flow-control</module>
 	</modules>
 </project>
