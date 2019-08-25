@@ -14,5 +14,8 @@
 		<module>sentinel-demo</module>
 		<module>sentinel-demo-spring-cloud-gateway</module>
 		<module>sentinel-demo-parameter-flow-control</module>
+		<module>sentinel-demo-cluster-server-alone</module>
+		<module>sentinel-demo-cluster-client-1</module>
+		<module>sentinel-demo-cluster-client-2</module>
 	</modules>
 </project>

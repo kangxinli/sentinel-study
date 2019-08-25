@@ -4,9 +4,9 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sample</groupId>
-	<artifactId>sentinel-demo-parameter-flow-control</artifactId>
+	<artifactId>sentinel-demo-cluster-server-alone</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sentinel-demo-parameter-flow-control</name>
+	<name>sentinel-demo-cluster-server-alone</name>
 	<url>http://maven.apache.org</url>
 	
 	<parent>
@@ -32,13 +32,22 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-parameter-flow-control</artifactId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
             <version>${sentinel-version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-transport-simple-http</artifactId>
+            <artifactId>sentinel-cluster-server-default</artifactId>
             <version>${sentinel-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+            <version>${sentinel-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
         </dependency>
     </dependencies>
     
